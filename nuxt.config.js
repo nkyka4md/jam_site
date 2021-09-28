@@ -1,4 +1,6 @@
 export default {
+  mode: 'universal',
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -6,7 +8,7 @@ export default {
   head: {
     title: 'jam_site',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
@@ -19,12 +21,17 @@ export default {
     ]
   },
 
+  // Customize the progress-bar color
+  loading: { color: '#fff' },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~plugins/font-awesome', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -40,12 +47,27 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/markdownit',
+    'nuxt-fontawesome'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
+  markdownit: {
+    html: true,
+    injected: true,
+    linkify: true,
+    breaks: false
+  },
+
+  fontawesome: {
+    component: 'fa'
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extend (config, ctx) {
+    }
   }
 }
