@@ -1,5 +1,15 @@
+// contentfulのプラグインを定数で設定
+const config = require('./.contentful.json')
+const contentful = require('contentful')
+
 export default {
   mode: 'universal',
+
+  // 環境変数としてContentfulのスペースIDとアクセストークンを設定
+  env: {
+    CTF_SPACE_ID: config.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN
+  },
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
