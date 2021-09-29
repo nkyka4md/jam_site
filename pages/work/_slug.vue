@@ -29,9 +29,7 @@
         {{ work.fields.gitHub }}
       </p>
     </div>
-    <div
-      v-html="work.fields.content"
-    ></div>
+    <div class="content" v-html="$md.render(work.fields.content)"></div>
   </div>
 </template>
 
@@ -63,3 +61,42 @@ export default {
 
 }
 </script>
+
+<style>
+.content h1 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 25px 0;
+  border-bottom: 2px solid #000;
+}
+.content h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+.content h3 {
+  font-weight: bold;
+  font-size: .8rem;
+  margin: 15px 0;
+}
+.content a {
+  color: blue;
+}
+.content li {
+  list-style: disc;
+}
+.content code {
+  background: #eee;
+  padding: 2px;
+}
+.content pre code {
+  background: none;
+  padding: 0;
+}
+.content pre {
+  background: #000;
+  color: #fff;
+  padding: 5px;
+}
+</style>
