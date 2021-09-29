@@ -5,10 +5,11 @@
     </main>
     <header class="w-64 h-64 ml-10">
       <div class="w-64 mt-24 ml-2 relative md:fixed">
+        <h1 class="font-bold mb-4">運営者</h1>
         <div class="flex">
           <div class="bg-center bg-cover w-16 h-16 mr-2 rounded-full shadow photo"></div>
           <div>
-            <h1 class="font-bold">Kaito Nakaya</h1>
+            <h2 class="font-bold">Kaito Nakaya</h2>
             <p class="text-xs text-justify">アニメ紹介ブログです。よろしくお願いします。</p>
           </div>
         </div>
