@@ -1,9 +1,9 @@
 <template>
-  <div class="font-main flex flex-wrap justify-around">
+  <div class="font-main flex flex-wrap justify-center">
     <main class="w-full mt-10">
       <nuxt />
     </main>
-    <header class="w-64 h-64">
+    <header class="w-64 h-64 ml-10">
       <div class="w-64 mt-24 ml-2 relative md:fixed">
         <div class="flex">
           <div class="bg-center bg-cover w-16 h-16 mr-2 rounded-full shadow photo"></div>
