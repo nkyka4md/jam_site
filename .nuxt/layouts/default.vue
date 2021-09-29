@@ -38,6 +38,7 @@
           </button>
         </a>
         </div>
+        <input type="text" placeholder="Keywords" class="bg-gray-300 p-2 text-xs rounded w-full mt-5 focus:outline-none" v-model="keyword" @keypress.enter="$router.push('/search/' + keyword)">
       </div>
     </header>
   </div>
@@ -48,6 +49,12 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 export default {
+  data() {
+    return {
+      keyword: ''
+    }
+  },
+
   computed: {
     faTwitter () {
       return faTwitter
