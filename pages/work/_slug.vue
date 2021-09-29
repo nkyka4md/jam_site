@@ -52,15 +52,6 @@ export default {
         work: works.items[0] // 取得した配列データの初めの１つを変数workに入れる
       }
     }).catch(console.error)
-  },
-
-  computed: {
-    faLink () {
-      return faLink
-    },
-    faGithub () {
-      return faGithub
-    }
   }
 
 }
