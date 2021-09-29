@@ -10,7 +10,7 @@
           <div class="bg-center bg-cover w-16 h-16 mr-2 rounded-full shadow photo"></div>
           <div>
             <h2 class="font-bold">Kaito Nakaya</h2>
-            <p class="text-xs text-justify">アニメ紹介ブログです。よろしくお願いします。</p>
+            <p class="text-xs text-justify">dアニメストアで掲載されているアニメを紹介するブログです。よろしくお願いします。</p>
           </div>
         </div>
         <div class="flex justify-around mt-5 text-xs">
