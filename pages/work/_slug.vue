@@ -82,7 +82,8 @@ export default {
 .content h3 {
   font-weight: bold;
   font-size: .8rem;
-  margin: 15px 0;
+  margin: 1.5rem 0;
+  margin-bottom: .125rem;
 }
 .content a {
   color: blue;

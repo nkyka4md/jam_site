@@ -1,5 +1,5 @@
 <template>
-  <div class="font-main flex flex-wrap justify-center">
+  <div class="font-main flex flex-wrap justify-center mb-32">
     <main class="w-full mt-10">
       <nuxt />
     </main>
@@ -38,7 +38,8 @@
           </button>
         </a>
         </div>
-        <input type="text" placeholder="Keywords" class="bg-gray-300 p-2 text-xs rounded w-full mt-5 focus:outline-none" v-model="keyword" @keypress.enter="$router.push('/search/' + keyword)">
+        <h2 class="font-bold mt-8">作品を探す</h2>
+        <input type="text" placeholder="作品名を入力してください" class="bg-gray-100 p-2 text-xs rounded w-full mt-5 focus:outline-none" v-model="keyword" @keypress.enter="$router.push('/search/' + keyword)">
       </div>
     </header>
   </div>
