@@ -26,7 +26,12 @@
 </template>
 
 <script>
+import likeButton from '@/components/likeButton'
+
 export default {
+  components: {
+    likeButton
+  },
   props: ['work']
 }
 </script>
