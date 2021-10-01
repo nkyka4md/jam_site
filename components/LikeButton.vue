@@ -18,7 +18,7 @@
           count: 0
         }
       },
-      template: '<button @click="countUp">Like {{ count }}</button>',
+      template: '<button @click="countUp" class="like-button">いいね {{ count }}</button>',
       methods: {
         countUp: function() {
           this.count++;
@@ -27,7 +27,7 @@
     });
 
     var app = new Vue({
-      el: '#app',
+      el: '#likeButton',
       components: {
         'like-component': likeComponent
       }
@@ -35,5 +35,21 @@
 
   })();
 </script>
+
+<style>
+.like-button{
+  position: relative;
+}
+.like-button::before{
+  position: absolute;
+  left: -48px;
+  background: url("./img/heart_animation.png");
+  background-position: left;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+  width: 105px;
+  height: 105px;
+}
+</style>
 
 
