@@ -33,14 +33,19 @@
         {{ work.fields.gitHub }}
       </p>
     </div>
+    <LikesButton/>
     <div class="content" v-html="$md.render(work.fields.content)"></div>
   </div>
 </template>
 
 <script>
+import LikesButton from '@/components/LikesButton'
 import { createClient } from '~/plugins/contentful.js'
 const client = createClient()
 export default {
+  components: {
+    LikesButton
+  },
   asyncData({params}) {
     return Promise.all([
       client.getEntries({
