@@ -1,5 +1,4 @@
 // contentfulのプラグインを定数で設定
-const config = require('./.contentful.json')
 const contentful = require('contentful')
 
 const client = contentful.createClient({
