@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import LikesButton from '@/components/LikesButton'
+import LikesButton from '@/components/LikesButton.vue'
 import { createClient } from '~/plugins/contentful.js'
 const client = createClient()
 export default {

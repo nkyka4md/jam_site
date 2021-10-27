@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import likeButton from '@/components/likeButton'
+import likeButton from '@/components/LikesButton.vue'
 
 export default {
   components: {

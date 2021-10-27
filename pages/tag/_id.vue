@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Article from '@/components/Article'
+import Article from '@/components/Article.vue'
 import { createClient } from '~/plugins/contentful.js'
 const client = createClient()
 export default {
