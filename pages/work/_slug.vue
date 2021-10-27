@@ -33,8 +33,11 @@
         {{ work.fields.gitHub }}
       </p>
     </div>
-    <LikesButton/>
     <div class="content" v-html="$md.render(work.fields.content)"></div>
+    <div class="my-8">
+      <LikesButton/>
+      <p class="text-xs text-right mt-1">※「いいね」は何回でも押せます。</p>
+    </div>
   </div>
 </template>
 

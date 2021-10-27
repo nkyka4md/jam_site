@@ -1,55 +1,24 @@
 <template>
-  <div class="font-main flex flex-wrap justify-center mb-32">
-    <main class="w-full mt-10">
-      <nuxt />
-    </main>
-    <header class="w-64 h-64 ml-10">
-      <div class="w-64 mt-24 ml-2 relative md:fixed">
-        <h1 class="font-bold mb-4">運営者</h1>
-        <div class="flex">
-          <div class="bg-center bg-cover w-16 h-16 mr-2 rounded-full shadow photo"></div>
-          <div>
-            <h2 class="font-bold">Kaito Nakaya</h2>
-            <p class="text-xs text-justify">dアニメストアで掲載されているアニメを紹介するブログです。よろしくお願いします。</p>
-          </div>
+  <div>
+    <MyHeader />
+    <div class="font-main flex flex-wrap justify-center mb-32">
+      <main class="w-full mt-28">
+        <nuxt />
+      </main>
+      <header class="w-64 h-64 ml-10">
+        <div class="w-64 mt-28 ml-2 relative md:fixed">
+          <h2 class="font-bold">記事を探す</h2>
+          <input type="text" placeholder="キーワードを入力してください（例：指輪）" class="bg-gray-100 p-2 text-xs rounded w-full mt-5 focus:outline-none" v-model="keyword" @keypress.enter="$router.push('/search/' + keyword)">
         </div>
-        <div class="flex justify-around mt-5 text-xs">
-          <nuxt-link to="/">
-          <button>
-            <fa-layers full-width class="fa-2x block mx-auto mb-1">
-              <fa :icon="faFacebookF" />
-            </fa-layers>
-            Facebook
-          </button>
-        </nuxt-link>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <button>
-            <fa-layers full-width class="fa-2x block mx-auto mb-1">
-              <fa :icon="faTwitter" />
-            </fa-layers>
-            Twitter
-          </button>
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <button>
-            <fa-layers full-width class="fa-2x block mx-auto mb-1">
-              <fa :icon="faInstagram" />
-            </fa-layers>
-            Instagram
-          </button>
-        </a>
-        </div>
-        <h2 class="font-bold mt-8">作品を探す</h2>
-        <input type="text" placeholder="作品名を入力してください" class="bg-gray-100 p-2 text-xs rounded w-full mt-5 focus:outline-none" v-model="keyword" @keypress.enter="$router.push('/search/' + keyword)">
-      </div>
-    </header>
+      </header>
+    </div>
+    <MyFooter />
   </div>
 </template>
 
 <script>
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import MyHeader from '/components/MyHeader.vue'
+import MyFooter from '/components/MyFooter.vue'
 export default {
   data() {
     return {
@@ -57,16 +26,9 @@ export default {
     }
   },
 
-  computed: {
-    faTwitter () {
-      return faTwitter
-    },
-    faInstagram () {
-      return faInstagram
-    },
-    faFacebookF () {
-      return faFacebookF
-    }
+  components: {
+    MyHeader,
+    MyFooter
   }
 }
 </script>
@@ -75,12 +37,10 @@ export default {
 main {
   max-width: 550px;
 }
-.photo {
-  min-width: 4rem;
-  min-height: 4rem;
-  background-image: url('~/img/face-icon.svg');
-}
 button:focus {
   outline: none;
+}
+p {
+  margin-bottom: 1rem;
 }
 </style>
