@@ -4,7 +4,7 @@
       <div class="py-6 text-center">
         <p class="text-sm">
           <nuxt-link to="/" class="text-primary hover:underline">
-            アラサー男の結婚ブログ：ホームに戻る
+            テストブログ：ホームに戻る
           </nuxt-link>
         </p>
       </div>

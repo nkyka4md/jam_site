@@ -1,5 +1,12 @@
 [
   {
+    "name": "profile",
+    "path": "/profile",
+    "component": "/Users/knakaya/jam_site/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_0c32f3aa"
+  },
+  {
     "name": "category-id",
     "path": "/category/:id?",
     "component": "/Users/knakaya/jam_site/pages/category/_id.vue",

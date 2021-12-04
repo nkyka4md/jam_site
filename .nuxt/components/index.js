@@ -1,5 +1,7 @@
-export const Article = () => import('../../components/Article.vue' /* webpackChunkName: "components/article" */).then(c => wrapFunctional(c.default || c))
-export const LikesButton = () => import('../../components/LikesButton.vue' /* webpackChunkName: "components/likes-button" */).then(c => wrapFunctional(c.default || c))
+export { default as Article } from '../../components/Article.vue'
+export { default as LikesButton } from '../../components/LikesButton.vue'
+export { default as MyFooter } from '../../components/MyFooter.vue'
+export { default as MyHeader } from '../../components/MyHeader.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

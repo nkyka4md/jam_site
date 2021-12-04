@@ -8,3 +8,5 @@ You can directly use them in pages and other components without the need to impo
 
 - `<Article>` | `<article>` (components/Article.vue)
 - `<LikesButton>` | `<likes-button>` (components/LikesButton.vue)
+- `<MyFooter>` | `<my-footer>` (components/MyFooter.vue)
+- `<MyHeader>` | `<my-header>` (components/MyHeader.vue)
