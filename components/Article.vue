@@ -1,37 +1,61 @@
 <template>
-  <div class="w-full my-3 py-2 bg-white overflow-hidden shadow-lg">
-    <nuxt-link :to=" '/category/' + work.fields.category.sys.id ">
-      <div class="absolute bg-white py-1 px-3 rounded shadow mt-1 ml-1 text-sm">
-        {{ work.fields.category.fields.name }}
+  <div>
+    <div class="bg-white shadow-md border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-8">
+      <nuxt-link :to=" '/work/' + work.fields.slug ">
+        <img class="rounded-t-lg" :src=" work.fields.image.fields.file.url " :alt=" work.fields.title + 'のサムネイル画像' ">
+      </nuxt-link>
+      <div class="p-4">
+        <nuxt-link class="text-sm text-green-600" :to=" '/category/' + work.fields.category.sys.id ">
+          {{ work.fields.category.fields.name }}
+        </nuxt-link>
+        <nuxt-link :to=" '/work/' + work.fields.slug ">
+          <h5 class="text-gray-900 font-bold text-2xl tracking-tight mt-2 mb-6 dark:text-white">{{ work.fields.title }}</h5>
+          <p>{{work.fields.description}}</p>
+        </nuxt-link>
+        <nuxt-link
+          :to="'/work/' + work.fields.slug"
+          class="
+            block
+            text-center
+            text-green-600
+            bg-transparent
+            border border-solid border-green-600
+            hover:bg-green-600 hover:text-white
+            active:bg-purple-600
+            font-bold
+            uppercase
+            px-8
+            py-3
+            rounded
+            outline-none
+            focus:outline-none
+            mr-1
+            mb-1
+            ease-linear
+            transition-all
+            duration-150
+            w-full
+          ">
+          記事を読む
+        </nuxt-link>
+        <ul class="flex mt-4">
+          <li
+            v-for="tag in work.fields.tag"
+            :key="tag.sys.id"
+            class="list-none text-xs bg-green-100 p-1 mr-2 rounded cursor-pointer"
+            @click="$router.push('/tag/'+tag.sys.id)">
+            {{ tag.fields.name }}
+          </li>
+        </ul>
       </div>
-    </nuxt-link>
-    <div
-      class="mb-3 w-full h-64 bg-center bg-cover"
-      :style=" 'background-image: url(' + work.fields.image.fields.file.url + ')' "
-    ></div>
-    <nuxt-link :to=" '/work/' + work.fields.slug ">
-      <h3 class="ml-3 font-bold">{{ work.fields.title }}</h3>
-    </nuxt-link>
-    <h4 class="ml-3 my-2 text-xs">{{ work.fields.subtitle }}</h4>
-    <div class="flex ml-2">
-      <li
-        v-for="tag in work.fields.tag"
-        :key="tag.sys.id"
-        class="list-none text-xs m-1 bg-gray-200 p-1 rounded cursor-pointer"
-        @click="$router.push('/tag/'+tag.sys.id)">
-        {{ tag.fields.name }}
-      </li>
     </div>
+
   </div>
 </template>
 
 <script>
-import likeButton from '@/components/LikesButton.vue'
 
-export default {
-  components: {
-    likeButton
-  },
-  props: ['work']
-}
+  export default {
+    props: ['work']
+  }
 </script>

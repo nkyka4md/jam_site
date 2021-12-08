@@ -1,4 +1,7 @@
 export { default as Article } from '../../components/Article.vue'
+export { default as GymCategoriesFilter } from '../../components/GymCategoriesFilter.vue'
+export { default as GymLocationsFilter } from '../../components/GymLocationsFilter.vue'
+export { default as GymsDataList } from '../../components/GymsDataList.vue'
 export { default as LikesButton } from '../../components/LikesButton.vue'
 export { default as MyFooter } from '../../components/MyFooter.vue'
 export { default as MyHeader } from '../../components/MyHeader.vue'

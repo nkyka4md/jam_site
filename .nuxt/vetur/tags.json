@@ -2,6 +2,15 @@
   "Article": {
     "description": "Auto imported from components/Article.vue"
   },
+  "GymCategoriesFilter": {
+    "description": "Auto imported from components/GymCategoriesFilter.vue"
+  },
+  "GymLocationsFilter": {
+    "description": "Auto imported from components/GymLocationsFilter.vue"
+  },
+  "GymsDataList": {
+    "description": "Auto imported from components/GymsDataList.vue"
+  },
   "LikesButton": {
     "description": "Auto imported from components/LikesButton.vue"
   },

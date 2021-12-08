@@ -1,5 +1,12 @@
 [
   {
+    "name": "gyms",
+    "path": "/gyms",
+    "component": "/Users/knakaya/jam_site/pages/gyms.vue",
+    "chunkName": "pages/gyms",
+    "_name": "_518b8967"
+  },
+  {
     "name": "profile",
     "path": "/profile",
     "component": "/Users/knakaya/jam_site/pages/profile.vue",

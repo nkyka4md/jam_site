@@ -6,7 +6,7 @@
         <div class="bg-center bg-cover w-16 h-16 mx-auto rounded-full shadow photo mb-4"></div>
         <div>
           <h2 class="font-bold text-3xl mb-4">Kaito Nakaya</h2>
-          <p class="mb-8">アラサー男の結婚ブログ管理人です。私の書いた記事が参考になれば幸いです。</p>
+          <p class="mb-8">東京ボルダリングブログ管理人です。私の書いた記事が参考になれば幸いです。</p>
           <h3 class="font-bold mb-4">好きなコト・モノ</h3>
           <p>ボルダリング、バレーボール、お酒、ステーキ、漫画、アニメ</p>
         </div>
@@ -15,7 +15,7 @@
       <client-only>
         <div class="w-full">
           <h3 class="font-bold mb-4">お問い合わせ</h3>
-          <p>何かあれば、お気軽にメッセージしてください。</p>
+          <p class="mb-8">何かあれば、お気軽にメッセージしてください。</p>
           <form name="contact" method="POST" class="mb-4">
             <input type="hidden" name="form-name" value="contact">
             <div class="mb-4">
@@ -37,7 +37,23 @@
               </label>
             </div>
             <div class="flex items-center justify-between">
-              <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+              <button
+                class="
+                  bg-green-600
+                  border border-solid border-green-600
+                  hover:bg-transparent hover:text-green-600
+                  text-white
+                  font-bold
+                  outline-none
+                  focus:outline-none
+                  py-2
+                  px-4
+                  rounded
+                  ease-linear
+                  transition-all
+                  duration-150
+                "
+                type="submit">
                 送信
               </button>
             </div>
@@ -53,6 +69,6 @@
 .photo {
   min-width: 10rem;
   min-height: 10rem;
-  background-image: url('~/img/face-icon.svg');
+  background-image: url('~/assets/img/face-icon.svg');
 }
 </style>

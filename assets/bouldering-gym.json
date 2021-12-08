@@ -1,0 +1,662 @@
+[
+  {
+    "id": 1,
+    "name": "BOULCOM（ボルコム）",
+    "address": "東京都渋谷区千駄ヶ谷5-29-7　地下1Ｆ",
+    "googleMapsLink": "https://goo.gl/maps/7KTuCSznYqLKqXrt8",
+    "webSiteLink": "https://boulcom.jp/",
+    "category": "bouldering",
+    "location": "渋谷区",
+    "locationType": "shibuya"
+  },
+  {
+    "id": 2,
+    "name": "Rock&Wall",
+    "address": "東京都渋谷区渋谷2-6-12",
+    "googleMapsLink": "https://goo.gl/maps/aFh5x6gVvtAewjkh6",
+    "webSiteLink": "http://www.rockandwall.jp/",
+    "category": "bouldering",
+    "location": "渋谷区",
+    "locationType": "shibuya"
+  },
+  {
+    "id": 3,
+    "name": "ボルダリングスタジオPEKIPEKI　渋谷明治通り本店",
+    "address": "東京都渋谷区神宮前6-19-14",
+    "googleMapsLink": "https://goo.gl/maps/6K7YiNVkE6mpyNAT9",
+    "webSiteLink": "http://www.pekipeki.jp/SHIBUYA/",
+    "category": "bouldering",
+    "location": "渋谷区",
+    "locationType": "shibuya"
+  },
+  {
+    "id": 4,
+    "name": "PEKID’S Shibuya（キッズ専用）",
+    "address": "東京都渋谷区神宮前6-19-14 神宮前ハッピービル1Ｆ",
+    "googleMapsLink": "https://goo.gl/maps/tMUuawxW9ThG3tTe9",
+    "webSiteLink": "http://www.pekipeki.jp/PEKIDS/",
+    "category": "bouldering",
+    "location": "渋谷区",
+    "locationType": "shibuya"
+  },
+  {
+    "id": 5,
+    "name": "クライミングジムRec’s代々木",
+    "address": "東京都渋谷区千駄ヶ谷4-30-3 代々木TRビルB1F",
+    "googleMapsLink": "https://goo.gl/maps/ddQpboGo55gwN8hD7",
+    "webSiteLink": "http://www.recs-g.com/",
+    "category": "bouldering",
+    "location": "渋谷区",
+    "locationType": "shibuya"
+  },
+  {
+    "id": 6,
+    "name": "J&Sボルダリングジム　恵比寿店",
+    "address": "東京都渋谷区東3-20-2 KIビル地下1階",
+    "googleMapsLink": "https://g.page/jsbouldering-ebisu?share",
+    "webSiteLink": "http://js-ebisu.jimdo.com/",
+    "category": "bouldering",
+    "location": "渋谷区",
+    "locationType": "shibuya"
+  },
+  {
+    "id": 7,
+    "name": "APEX Climbing Gym(エイペックスクライミングジム)　新宿西口店",
+    "address": "東京都新宿区西新宿7-3-1三光パークビル B1F",
+    "googleMapsLink": "https://goo.gl/maps/8BYYLQJHCHifD2Bk6",
+    "webSiteLink": "http://www.apex-climbing.com/",
+    "category": "bouldering",
+    "location": "新宿区",
+    "locationType": "shinjuku"
+  },
+  {
+    "id": 8,
+    "name": "ESCALADE Climbing gym（エスカラード クライミングジム）",
+    "address": "東京都新宿区西新宿7-5-20 新宿旭ビル",
+    "googleMapsLink": "https://goo.gl/maps/kxTu3kETu7fDxS416",
+    "webSiteLink": "http://www.escalade-climbing.com/index.html",
+    "category": "bouldering",
+    "location": "新宿区",
+    "locationType": "shinjuku"
+  },
+  {
+    "id": 9,
+    "name": "スポーツクライミングスクール・ジム「登り部屋 のこった」新宿",
+    "address": "東京都新宿区西新宿7-9-12 鈴和ビル二階",
+    "googleMapsLink": "https://goo.gl/maps/Xn2PNnef5M2eb3qZ7",
+    "webSiteLink": "http://www.js-climbing.com/",
+    "category": "bouldering",
+    "location": "新宿区",
+    "locationType": "shinjuku"
+  },
+  {
+    "id": 10,
+    "name": "APEXクライミングジム 四谷三丁目店",
+    "address": "東京都新宿区四谷3-13-24 ミズキビル",
+    "googleMapsLink": "https://goo.gl/maps/E3SXcd8KqBWoPCkY6",
+    "webSiteLink": "http://www.apex-climbing.com/yotsuya/",
+    "category": "bouldering",
+    "location": "新宿区",
+    "locationType": "shinjuku"
+  },
+  {
+    "id": 11,
+    "name": "EVERFREE CLIMBING GYM（エバーフリークライミングジム）",
+    "address": "東京都新宿区北新宿4-16-9 新関ビルB1F",
+    "googleMapsLink": "https://goo.gl/maps/S6vJYz8w9h3berHA7",
+    "webSiteLink": "http://www.everfree-climbing.com/",
+    "category": "bouldering",
+    "location": "新宿区",
+    "locationType": "shinjuku"
+  },
+  {
+    "id": 12,
+    "name": "BETA CLIMBING GYM（ベータクライミングジム）",
+    "address": "東京都新宿区住吉町 1-14",
+    "googleMapsLink": "https://goo.gl/maps/8iP1cyid7GnY8RFn8",
+    "webSiteLink": "http://beta-climbing.com/",
+    "category": "bouldering",
+    "location": "新宿区",
+    "locationType": "shinjuku"
+  },
+  {
+    "id": 13,
+    "name": "エナジークライミングジム 高田馬場店",
+    "address": "東京都新宿区高田馬場4-9-9 早稲田13時ホールビル1F",
+    "googleMapsLink": "https://goo.gl/maps/dUTzcAwB6YuY5Qx96",
+    "webSiteLink": "http://www7a.biglobe.ne.jp/~energy/gym/takadanobaba.html",
+    "category": "bouldering",
+    "location": "新宿区",
+    "locationType": "shinjuku"
+  },
+  {
+    "id": 14,
+    "name": "クライミングジム CELL",
+    "address": "東京都世田谷区経堂1-23-3",
+    "googleMapsLink": "https://goo.gl/maps/W7GyHfprJibijMYN9",
+    "webSiteLink": "http://www.setagaya-climbing.com/gym/",
+    "category": "bouldering",
+    "location": "世田谷区",
+    "locationType": "setagaya"
+  },
+  {
+    "id": 15,
+    "name": "スポーツクライミングスクール・ジム J&S 駒沢",
+    "address": "東京都世田谷区駒沢2-11-5 New Value 駒沢ビル8F",
+    "googleMapsLink": "https://goo.gl/maps/7pRqhk4S5imWM3FP8",
+    "webSiteLink": "http://js-climbing.com/komazawa/",
+    "category": "bouldering",
+    "location": "世田谷区",
+    "locationType": "setagaya"
+  },
+  {
+    "id": 16,
+    "name": "NOBOROCK 池袋",
+    "address": "東京都豊島区西池袋5-13-12 MKビルB1",
+    "googleMapsLink": "https://goo.gl/maps/UP988VBUfKv7VVGF7",
+    "webSiteLink": "http://www.noborock.com/",
+    "category": "bouldering",
+    "location": "豊島区",
+    "locationType": "toshima"
+  },
+  {
+    "id": 17,
+    "name": "スポーツクライミングスクール・ジム J&S池袋",
+    "address": "東京都豊島区南池袋1-7-20 大同ビル地下1階",
+    "googleMapsLink": "https://g.page/js-climbing?share",
+    "webSiteLink": "http://js-climbing.com/ikebukuro/",
+    "category": "bouldering",
+    "location": "豊島区",
+    "locationType": "toshima"
+  },
+  {
+    "id": 18,
+    "name": "グラヴィティ・スポーツ 高田馬場店",
+    "address": "東京都豊島区高田3-13-8吉見ビル１F",
+    "googleMapsLink": "https://goo.gl/maps/1rgHBsXCd1sGusc77",
+    "webSiteLink": "http://www.gravity-sp.com/takadanobaba.html",
+    "category": "bouldering",
+    "location": "豊島区",
+    "locationType": "toshima"
+  },
+  {
+    "id": 19,
+    "name": "グラヴィティ・スポーツ 高田馬場店",
+    "address": "東京都中央区銀座6-6-1 銀座風月堂ビル6F",
+    "googleMapsLink": "https://goo.gl/maps/wSnnU8GeWvN7WKzu5",
+    "webSiteLink": "http://www.gravity-research.jp/shop/ginza/",
+    "category": "bouldering",
+    "location": "中央区",
+    "locationType": "chuo"
+  },
+  {
+    "id": 20,
+    "name": "登處八丁堀",
+    "address": "東京都中央区新川2−6−8 B1F",
+    "googleMapsLink": "https://goo.gl/maps/czTS7uX7wAMx29J37",
+    "webSiteLink": "http://noboridokoro.daa.jp/",
+    "category": "bouldering",
+    "location": "中央区",
+    "locationType": "chuo"
+  },
+  {
+    "id": 21,
+    "name": "ボルダリングジムグラニー 東上野店",
+    "address": "東京都台東区東上野6-7-3 1F",
+    "googleMapsLink": "https://g.page/granny-ueno?share",
+    "webSiteLink": "http://granny-ueno.jp/",
+    "category": "bouldering",
+    "location": "台東区",
+    "locationType": "daito"
+  },
+  {
+    "id": 22,
+    "name": "ボルダリングジムグラニー 東上野店",
+    "address": "東京都文京区湯島1-1-8",
+    "googleMapsLink": "https://goo.gl/maps/X87bK8PGgRkUGFVd8",
+    "webSiteLink": "http://pump-climbing.com/gym/akiba/",
+    "category": "bouldering",
+    "location": "文京区",
+    "locationType": "bunkyo"
+  },
+  {
+    "id": 23,
+    "name": "T-wall 江戸川橋店",
+    "address": "東京都文京区水道2丁目5-23",
+    "googleMapsLink": "https://goo.gl/maps/U1F6iQpaNu8mKWBg6",
+    "webSiteLink": "http://twall.jp/gym/edo/",
+    "category": "lead",
+    "location": "文京区",
+    "locationType": "bunkyo"
+  },
+  {
+    "id": 24,
+    "name": "東京ドームシティ スポドリ！",
+    "address": "東京都文京区春日1丁目1-1",
+    "googleMapsLink": "https://goo.gl/maps/razLfxrzeet2f6V6A",
+    "webSiteLink": "https://www.tokyo-dome.co.jp/spo-dori/bouldering/",
+    "category": "bouldering",
+    "location": "文京区",
+    "locationType": "bunkyo"
+  },
+  {
+    "id": 25,
+    "name": "ロッキー 品川店",
+    "address": "東京都港区港南5-4-38 松岡品川埠頭ビル103",
+    "googleMapsLink": "https://goo.gl/maps/frBveQYMt39NUvkG9",
+    "webSiteLink": "http://www.rockyclimbing.com/shinagawa/",
+    "category": "bouldering",
+    "location": "港区",
+    "locationType": "minato"
+  },
+  {
+    "id": 26,
+    "name": "Climbing Gym Krimp",
+    "address": "東京都大田区蒲田3丁目14-15 ロイヤルプラザB1F",
+    "googleMapsLink": "https://goo.gl/maps/TqvBtmk6qTeNkP8p8",
+    "webSiteLink": "http://krimp.jp/",
+    "category": "bouldering",
+    "location": "大田区",
+    "locationType": "ota"
+  },
+  {
+    "id": 27,
+    "name": "T-WALLクライミングジム 大岡山店",
+    "address": "東京都大田区北千束1-59-3",
+    "googleMapsLink": "https://goo.gl/maps/gpjmwGcYegX97Wrg9",
+    "webSiteLink": "http://twall.jp/gym/ookayama/",
+    "category": "bouldering",
+    "location": "大田区",
+    "locationType": "ota"
+  },
+  {
+    "id": 28,
+    "name": "ノースパークビル ボルダリングジム",
+    "address": "東京都板橋区板橋4-12-6",
+    "googleMapsLink": "https://goo.gl/maps/jkRaZbSoudCn4eKSA",
+    "webSiteLink": "http://freebouldering.web.fc2.com/",
+    "category": "bouldering",
+    "location": "板橋区",
+    "locationType": "itabashi"
+  },
+  {
+    "id": 29,
+    "name": "the FACTORY CLIMBING GYM(ファクトリークライミングジム)",
+    "address": "東京都板橋区常盤台1-36-14 ヒュッテGM常盤台1・2階",
+    "googleMapsLink": "https://goo.gl/maps/KvfjeAwoYT11spWV7",
+    "webSiteLink": "https://www.thefactory-climbing.com/",
+    "category": "bouldering",
+    "location": "板橋区",
+    "locationType": "itabashi"
+  },
+  {
+    "id": 30,
+    "name": "Base Camp Tokyo 小竹向原店",
+    "address": "東京都板橋区向原3-10-15",
+    "googleMapsLink": "https://goo.gl/maps/azEZDL1fJqKUhu828",
+    "webSiteLink": "http://b-camp.jp/tokyo/",
+    "category": "bouldering",
+    "location": "板橋区",
+    "locationType": "itabashi"
+  },
+  {
+    "id": 31,
+    "name": "クライミングジム・ドラセナ",
+    "address": "東京都板橋区小豆沢4-7-3",
+    "googleMapsLink": "https://goo.gl/maps/Gwpqacp3dWFLYpgo8",
+    "webSiteLink": "http://blog.livedoor.jp/dracaena1114/",
+    "category": "bouldering",
+    "location": "板橋区",
+    "locationType": "itabashi"
+  },
+  {
+    "id": 32,
+    "name": "UNDERGROUND",
+    "address": "東京都北区東十条3-1-14　ライフエールマンションB1",
+    "googleMapsLink": "https://goo.gl/maps/NyDdPqKdwCxox7wr9",
+    "webSiteLink": "http://www.underground-climb.com/",
+    "category": "bouldering",
+    "location": "北区",
+    "locationType": "kita"
+  },
+  {
+    "id": 33,
+    "name": "クエール・クライミングジム",
+    "address": "東京都練馬区早宮2-26-19",
+    "googleMapsLink": "https://goo.gl/maps/wbAVCf5F7w8cogJD9",
+    "webSiteLink": "http://quail-climbing.com/",
+    "category": "bouldering",
+    "location": "練馬区",
+    "locationType": "nerima"
+  },
+  {
+    "id": 34,
+    "name": "T-WALLクライミングジム 錦糸町店",
+    "address": "東京都江東区毛利2-10-12",
+    "googleMapsLink": "https://goo.gl/maps/yC2oe4H5VAH4YkvP9",
+    "webSiteLink": "http://twall.jp/gym/kinshi/",
+    "category": "lead",
+    "location": "江東区",
+    "locationType": "kouto"
+  },
+  {
+    "id": 35,
+    "name": "Fish and Bird",
+    "address": "東京都江東区東陽7丁目4−12",
+    "googleMapsLink": "https://goo.gl/maps/G7yUdKquDYa3pLVY9",
+    "webSiteLink": "http://fish-bird.co.jp/",
+    "category": "bouldering",
+    "location": "江東区",
+    "locationType": "kouto"
+  },
+  {
+    "id": 36,
+    "name": "BOULDERS Climbing Gym",
+    "address": "東京都足立区東保木間2丁目25−16",
+    "googleMapsLink": "https://goo.gl/maps/qF36rUWy5WZ1P75L9",
+    "webSiteLink": "http://hokimaboulders.com/",
+    "category": "bouldering",
+    "location": "足立区",
+    "locationType": "adachi"
+  },
+  {
+    "id": 37,
+    "name": "ボルダリングスペース Geode",
+    "address": "東京都足立区弘道1-5-20 第三弘道プラザ1F",
+    "googleMapsLink": "https://goo.gl/maps/KkF3g9CUiH4FVE5f8",
+    "webSiteLink": "http://geodeblog.blog.fc2.com/",
+    "category": "bouldering",
+    "location": "足立区",
+    "locationType": "adachi"
+  },
+  {
+    "id": 38,
+    "name": "HEADROCK CLIMBING GYM",
+    "address": "東京都墨田区菊川1丁目10-10",
+    "googleMapsLink": "https://goo.gl/maps/4m4A5rXeuuRLSo8x7",
+    "webSiteLink": "http://headrock-climbing.jp/",
+    "category": "bouldering",
+    "location": "墨田区",
+    "locationType": "sumida"
+  },
+  {
+    "id": 39,
+    "name": "ROCKLANDS ロックランズ",
+    "address": "東京都江戸川区東葛西5-27-16",
+    "googleMapsLink": "https://g.page/official_rocklands?share",
+    "webSiteLink": "http://www.rock-lands.com/",
+    "category": "lead",
+    "location": "江戸川区",
+    "locationType": "edogawa"
+  },
+  {
+    "id": 40,
+    "name": "YJ Rock Climbing GYM",
+    "address": "東京都荒川区東日暮里3丁目23−13",
+    "googleMapsLink": "https://goo.gl/maps/G9XrqwSethFFw6dPA",
+    "webSiteLink": "http://www.yj-rockclimbing.com/",
+    "category": "bouldering",
+    "location": "荒川区",
+    "locationType": "arakawa"
+  },
+  {
+    "id": 41,
+    "name": "Rhino and Bird",
+    "address": "東京都荒川区西日暮里2-56-3",
+    "googleMapsLink": "https://goo.gl/maps/XbT2Rtj7t4mfVfheA",
+    "webSiteLink": "http://www.rhino-bird.com/",
+    "category": "bouldering",
+    "location": "荒川区",
+    "locationType": "arakawa"
+  },
+  {
+    "id": 42,
+    "name": "ボルダリングジム J&S中野",
+    "address": "東京都中野区新井1-31-6 高山ビル1F",
+    "googleMapsLink": "https://goo.gl/maps/kU5sfNUyg3x8xwaU8",
+    "webSiteLink": "http://jands-nakano.ldblog.jp/",
+    "category": "bouldering",
+    "location": "中野区",
+    "locationType": "nakano"
+  },
+  {
+    "id": 43,
+    "name": "Bouldering space BLEAU",
+    "address": "東京都杉並区高円寺南3-6-3",
+    "googleMapsLink": "https://goo.gl/maps/h9R1yaxspabsmr1E9",
+    "webSiteLink": "http://bouldering-bleau.com/",
+    "category": "bouldering",
+    "location": "杉並区",
+    "locationType": "suginami"
+  },
+  {
+    "id": 44,
+    "name": "B-PUMP 荻窪店",
+    "address": "東京都杉並区上荻1-10-12",
+    "googleMapsLink": "https://goo.gl/maps/CdsV9P5xMtCz2jfD8",
+    "webSiteLink": "http://www.pump-climbing.com/gym/bpump/",
+    "category": "bouldering",
+    "location": "杉並区",
+    "locationType": "suginami"
+  },
+  {
+    "id": 45,
+    "name": "ジャムセッション三鷹",
+    "address": "東京都三鷹市上連雀2-2-5 ポリフォニー三鷹ビル2階",
+    "googleMapsLink": "https://goo.gl/maps/VeCqmLaia2vtWyqT6",
+    "webSiteLink": "http://xn--xckbj6a9jra6a4gy403a4b6j.com/",
+    "category": "bouldering",
+    "location": "三鷹市",
+    "locationType": "mitaka"
+  },
+  {
+    "id": 46,
+    "name": "三鷹ジム",
+    "address": "東京都武蔵野市中町1-1-8 HN28ビルB1F",
+    "googleMapsLink": "https://g.page/mitaka-gym?share",
+    "webSiteLink": "http://mitakagym.com/",
+    "category": "bouldering",
+    "location": "武蔵野市",
+    "locationType": "musashino"
+  },
+  {
+    "id": 47,
+    "name": "VOLNY",
+    "address": "東京都武蔵野市吉祥寺北町1-18-3",
+    "googleMapsLink": "https://goo.gl/maps/iM223AnDpFq6CdHb7",
+    "webSiteLink": "http://climbingcaffe.net/volny/",
+    "category": "bouldering",
+    "location": "武蔵野市",
+    "locationType": "musashino"
+  },
+  {
+    "id": 48,
+    "name": "立川市泉市民体育館トレーニングジム",
+    "address": "東京都立川市泉町786-11",
+    "googleMapsLink": "https://goo.gl/maps/k3biCr42Th5Mywoj7",
+    "webSiteLink": "http://www.tama-spo.com/izumi/izumi_program_tra/index.html",
+    "category": "bouldering",
+    "location": "立川市",
+    "locationType": "tachikawa"
+  },
+  {
+    "id": 49,
+    "name": "JETSET",
+    "address": "東京都立川市柏町4-60-17",
+    "googleMapsLink": "https://goo.gl/maps/8ATUwaysFLWd62aW9",
+    "webSiteLink": "http://jet-set.jpn.com/pc/welcome.html",
+    "category": "bouldering",
+    "location": "立川市",
+    "locationType": "tachikawa"
+  },
+  {
+    "id": 50,
+    "name": "ウエストロック 府中店",
+    "address": "東京都府中市分梅町5-9-1",
+    "googleMapsLink": "https://goo.gl/maps/Q4ju4XBaLzn3kzNE8",
+    "webSiteLink": "http://www.westrock-climbing.com/intro_fuchu/",
+    "category": "bouldering",
+    "location": "府中市",
+    "locationType": "futyu"
+  },
+  {
+    "id": 51,
+    "name": "クライミングジム・ランナウト",
+    "address": "東京都国分寺市西恋ヶ窪1-43-7",
+    "googleMapsLink": "https://goo.gl/maps/mBYJ1E7WpwRYUZ7E9",
+    "webSiteLink": "http://www.runout.info/",
+    "category": "lead",
+    "location": "国分寺市",
+    "locationType": "kokubunji"
+  },
+  {
+    "id": 52,
+    "name": "クライミングジムgugu!",
+    "address": "東京都国立市中1-17-27 関口第三ビルB1F",
+    "googleMapsLink": "https://goo.gl/maps/ZjLYjuXksXoHgXa97",
+    "webSiteLink": "http://www.gugu-climbing.com/",
+    "category": "bouldering",
+    "location": "国立市",
+    "locationType": "kunitachi"
+  },
+  {
+    "id": 53,
+    "name": "マグレブエスト",
+    "address": "東京都多摩市落合1-39-1 マグレブEASTビル5F",
+    "googleMapsLink": "https://g.page/fitness-maghreb?share",
+    "webSiteLink": "http://www.maghreb.jp/index_est.html",
+    "category": "bouldering",
+    "location": "多摩市",
+    "locationType": "tama"
+  },
+  {
+    "id": 54,
+    "name": "MABOO（マーブー）",
+    "address": "東京都武蔵村山市伊奈平1-72-1",
+    "googleMapsLink": "https://goo.gl/maps/xr3ojVYbYYdgNfA38",
+    "webSiteLink": "http://www.maboo.jp/",
+    "category": "bouldering",
+    "location": "武蔵村山市",
+    "locationType": "musashimurayama"
+  },
+  {
+    "id": 55,
+    "name": "PLAY",
+    "address": "東京都昭島市田中町610-4",
+    "googleMapsLink": "https://goo.gl/maps/y1bLaqjX3PzxwpRE6",
+    "webSiteLink": "https://www.play-tokyo.com/",
+    "category": "lead",
+    "location": "昭島市",
+    "locationType": "akishima"
+  },
+  {
+    "id": 56,
+    "name": "クライミングスタジオ カメロパルダリス",
+    "address": "東京都昭島市東町3-4-11",
+    "googleMapsLink": "https://goo.gl/maps/iS4G5iLpG2a3LynA7",
+    "webSiteLink": "http://camelopardalis-tokyo.com/",
+    "category": "bouldering",
+    "location": "昭島市",
+    "locationType": "akishima"
+  },
+  {
+    "id": 57,
+    "name": "ハングアウト・クライミングジム",
+    "address": "東京都調布市菊野台1-40-3",
+    "googleMapsLink": "https://goo.gl/maps/WBxx3DoRwg7uSStu8",
+    "webSiteLink": "http://www.climbing-hangout.com/",
+    "category": "bouldering",
+    "location": "調布市",
+    "locationType": "chofu"
+  },
+  {
+    "id": 58,
+    "name": "ウエストロック 調布店",
+    "address": "東京都調布市富士見町1-20-3",
+    "googleMapsLink": "https://goo.gl/maps/G5mifBnHmxE9pFiv6",
+    "webSiteLink": "http://www.westrock-climbing.com/intro_chofu/",
+    "category": "bouldering",
+    "location": "調布市",
+    "locationType": "chofu"
+  },
+  {
+    "id": 59,
+    "name": "T-WALLクライミングジム 東村山店",
+    "address": "東京都東村山市本町2-7-1",
+    "googleMapsLink": "https://goo.gl/maps/ciPEEvEKFsLpvbNC6",
+    "webSiteLink": "http://twall.jp/gym/hmura/",
+    "category": "bouldering",
+    "location": "東村山市",
+    "locationType": "higashimurayama"
+  },
+  {
+    "id": 60,
+    "name": "ROCKBEANS",
+    "address": "東京都八王子市寺町22",
+    "googleMapsLink": "https://g.page/rockbeans?share",
+    "webSiteLink": "http://rockbeans.com/",
+    "category": "bouldering",
+    "location": "八王子市",
+    "locationType": "hachioji"
+  },
+  {
+    "id": 61,
+    "name": "クライミングジム＆ショップ バーチVAC",
+    "address": "東京都八王子市散田町3丁目17-11 NSビルB1",
+    "googleMapsLink": "https://g.page/vac_climbing_gym?share",
+    "webSiteLink": "http://www.e7a.jp/vac/",
+    "category": "bouldering",
+    "location": "八王子市",
+    "locationType": "hachioji"
+  },
+  {
+    "id": 62,
+    "name": "NAスポーツクラブA-1 町田店",
+    "address": "東京都町田市森野1-39-16 リード町田ビル2F〜6F",
+    "googleMapsLink": "https://goo.gl/maps/WrmxjMqzgfZ5L26G7",
+    "webSiteLink": "http://www.a-1machida.jp/program/climbing/index.html",
+    "category": "bouldering",
+    "location": "町田市",
+    "locationType": "machida"
+  },
+  {
+    "id": 63,
+    "name": "NOSE 町田店",
+    "address": "東京都町田市南つくし野3丁目1−3",
+    "googleMapsLink": "https://goo.gl/maps/NHHmp1s3F4LtHvFX6",
+    "webSiteLink": "http://www.nose2.org/15-0machida.html",
+    "category": "bouldering",
+    "location": "町田市",
+    "locationType": "machida"
+  },
+  {
+    "id": 64,
+    "name": "フィッツクライミングジム",
+    "address": "東京都町田市大蔵町208-1",
+    "googleMapsLink": "https://g.page/fitsclimbinggym?share",
+    "webSiteLink": "http://www.fitsclimbing.com/",
+    "category": "bouldering",
+    "location": "町田市",
+    "locationType": "machida"
+  },
+  {
+    "id": 65,
+    "name": "クライミングジムGIRI.GIRI（ギリギリ）",
+    "address": "東京都西東京市西原町5丁目2番地1",
+    "googleMapsLink": "https://goo.gl/maps/37Ud6bdtzKX8neYLA",
+    "webSiteLink": "http://www.fitsclimbing.com/",
+    "category": "speed",
+    "location": "西東京市",
+    "locationType": "nishitokyo"
+  },
+  {
+    "id": 66,
+    "name": "葛飾区東金町運動場 スポーツクライミングセンター",
+    "address": "東京都葛飾区東金町8-31-1",
+    "googleMapsLink": "https://g.page/katsushika_climbing?share",
+    "webSiteLink": "https://www.climbing-tosho.com/katsushika_climbing",
+    "category": "speed",
+    "location": "葛飾区",
+    "locationType": "katsushika"
+  }
+]

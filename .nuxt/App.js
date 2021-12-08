@@ -13,8 +13,9 @@ import '../node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css'
 import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
 import _6f6c098b from '../layouts/default.vue'
+import _2d24470e from '../layouts/gyms.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_gyms": sanitizeComponent(_2d24470e) }
 
 export default {
   render (h, props) {
