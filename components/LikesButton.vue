@@ -5,7 +5,7 @@
       <input id="liked" @change="isActive = !isActive" class="opacity-0 absolute left-0" type="checkbox" v-model="isChecked" />
       <label
         for="liked"
-        class="px-4 py-1 rounded bg-white border border-red-400 text-red-400 hover:bg-red-400 hover:text-white inline-block cursor-pointer focus:ring-1 focus:ring-red-200"
+        class="px-4 py-1 rounded border border-red-400 hover:bg-red-400 hover:text-white inline-block cursor-pointer focus:ring-1 focus:ring-red-200"
         :class="classColorSet">
         いいね
       </label>
@@ -19,11 +19,11 @@
     data() {
       return {
         isActive: true,
-        isChecked: this.Checked()
+        isChecked: this.checked()
       }
     },
     methods: {
-      Checked: function () {
+      checked: function () {
         var liked = localStorage.getItem(" isChecked");
         if (liked === null) {
           return true;
@@ -33,9 +33,11 @@
       }
     },
     computed: {
-      classColorSet: function () {
-        return {
-          'text-red-500': this.isActive,
+      classColor: function () {
+        if (this.isChecked) {
+          return 'bg-red-400 text-white';
+        } else {
+          return 'bg-white text-red-400';
         }
       }
     },
