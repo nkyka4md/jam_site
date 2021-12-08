@@ -6,7 +6,7 @@
       <label
         for="liked"
         class="px-4 py-1 rounded border border-red-400 hover:bg-red-400 hover:text-white inline-block cursor-pointer focus:ring-1 focus:ring-red-200"
-        :class="classColorSet">
+        :class="changeClass">
         いいね
       </label>
     </div>
@@ -33,7 +33,7 @@
       }
     },
     computed: {
-      classColor: function () {
+      changeClass: function () {
         if (this.isChecked) {
           return 'bg-red-400 text-white';
         } else {
